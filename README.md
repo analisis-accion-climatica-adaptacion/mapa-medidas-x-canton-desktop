@@ -22,7 +22,7 @@ El comando generó el archivo:
 
 ## Procesamiento
 Los datos de entrada se procesaron en el proyecto QGIS:  
-```mapa-medidas-x-canton-desktop```
+```mapa-medidas-x-canton-desktop.qgz```
 
 ## Salidas
 El resultante mapa puede visualizarse en:  
