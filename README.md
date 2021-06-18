@@ -14,6 +14,7 @@ Se obtuvo al copiar el archivo ```datos/cantones-medidas.geojson``` del [reposit
 ```
 cd datos
 ogr2ogr -t_srs EPSG:5367 cantones-medidas-crtm05.geojson cantones-medidas.geojson
+rm canton-medidas.geojson
 ```
 
 ## Procesamiento
