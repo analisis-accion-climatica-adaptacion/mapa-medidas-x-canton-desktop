@@ -5,20 +5,16 @@ El mapa puede visualizarse en:
 ???
 
 ## Entradas
-Los datos de entrada iniciales están descritos en el [repositorio de la versión web de este mapa](https://github.com/analisis-accion-climatica-adaptacion/mapa-medidas-x-canton-web). Estos datos se copiaron al directorio ```/datos``` de este repositorio. El mapa se basa en el archivo con la capa de cantones y los datos de cantidad de medidas para cada uno.
+**1. Archivo GeoJSON con capa geoespacial de cantones de Costa Rica en el SRS CRTM05**  
 
-```cantones-medidas.geojson```
+Nombre del archivo: ```datos/cantones-medidas-crtm05.geojson```  
 
-Este archivo se transformó al SRS CRTM05 (EPSG = 5367) con el comando:
+Se obtuvo al copiar el archivo ```datos/cantones-medidas.geojson``` del [repositorio de la versión web de este mapa](https://github.com/analisis-accion-climatica-adaptacion/mapa-medidas-x-canton-web) y aplicar los comandos:
 
 ```
 cd datos
 ogr2ogr -t_srs EPSG:5367 cantones-medidas-crtm05.geojson cantones-medidas.geojson
 ```
-
-El comando generó el archivo:
-
-```cantones-medidas-crtm05.geojson```
 
 ## Procesamiento
 Los datos de entrada se procesaron en el proyecto QGIS:  
