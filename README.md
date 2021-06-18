@@ -8,7 +8,7 @@ El mapa puede visualizarse en:
 Los datos de entrada están descritos en el [repositorio de la versión web de este mapa](https://github.com/analisis-accion-climatica-adaptacion/mapa-medidas-x-canton-web). En el directorio ```/datos```.
 
 ## Procesamiento
-Los datos de entrada se procesaron en el proyecto QGIS:
+Los datos de entrada se procesaron en el proyecto QGIS:  
 ???
 
 ## Salidas
