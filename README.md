@@ -5,7 +5,20 @@ El mapa puede visualizarse en:
 ???
 
 ## Entradas
-Los datos de entrada están descritos en el [repositorio de la versión web de este mapa](https://github.com/analisis-accion-climatica-adaptacion/mapa-medidas-x-canton-web). Se mantiene una copia de dichos datos en el directorio ```/datos``` de este repositorio.
+Los datos de entrada iniciales están descritos en el [repositorio de la versión web de este mapa](https://github.com/analisis-accion-climatica-adaptacion/mapa-medidas-x-canton-web). Estos datos se copiaron al directorio ```/datos``` de este repositorio. El mapa se basa en el archivo con la capa de cantones y los datos de cantidad de medidas para cada uno.
+
+- cantones-medidas.geojson
+
+Este archivo se transformó al SRS CRTM05 (EPSG = 5367) con el comando:
+
+```
+cd datos
+ogr2ogr -t_srs 5367 cantones-medidas-crtm05.geojson cantones-medidas.geojson
+```
+
+El comando generó el archivo:
+
+- cantones-medidas-crtm05.geojson
 
 ## Procesamiento
 Los datos de entrada se procesaron en el proyecto QGIS:  
