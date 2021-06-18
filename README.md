@@ -13,7 +13,7 @@ Este archivo se transformó al SRS CRTM05 (EPSG = 5367) con el comando:
 
 ```
 cd datos
-ogr2ogr -t_srs 5367 cantones-medidas-crtm05.geojson cantones-medidas.geojson
+ogr2ogr -t_srs EPSG:5367 cantones-medidas-crtm05.geojson cantones-medidas.geojson
 ```
 
 El comando generó el archivo:
