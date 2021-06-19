@@ -26,5 +26,5 @@ Los datos de entrada se procesaron en el proyecto QGIS:
 ```mapa-medidas-x-canton-desktop.qgz```
 
 ## Salidas
-El resultante mapa puede visualizarse en:  
+El mapa resultante puede visualizarse en:  
 [https://github.com/analisis-accion-climatica-adaptacion/mapa-medidas-x-canton-desktop/blob/main/salidas/mapa-medidas-x-canton.pdf](https://github.com/analisis-accion-climatica-adaptacion/mapa-medidas-x-canton-desktop/blob/main/salidas/mapa-medidas-x-canton.pdf)
